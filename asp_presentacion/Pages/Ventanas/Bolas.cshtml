@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentacion.Pages.Ventanas.BolasModel
 @{
-    ViewData["Titulo"] = "";
+    ViewData["Titulo"] = "Bolas";
 }
 <center>
     <div>
@@ -157,19 +157,19 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Codigo
+                                Nombre
                             </th>
                             <th>
-                                Nombre
+                                Diametro
                             </th>
                             <th class="cl_hidden">
                                 Telefono
                             </th>
                             <th class="cl_actions">
-                                Dirreccion
+                                Color
                             </th>
                             <th class="cl_actions">
-                                Accion
+                                Peso
                             </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
