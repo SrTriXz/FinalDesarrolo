@@ -21,13 +21,13 @@ namespace lib_presentaciones.Implementaciones
             JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
-        public async Task<List<JugadoresPartidas>> PorEstudiante(JugadoresPartidas? entidad)
+        public async Task<List<JugadoresPartidas>> Porjugador(JugadoresPartidas? entidad)
         {
             var lista = new List<JugadoresPartidas>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad!;
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "JugadoresPartidas/PorEstudiante");
+            datos = comunicaciones.ConstruirUrl(datos, "JugadoresPartidas/Porjugador");
             var respuesta = await comunicaciones!.Execute(datos);
             if (respuesta.ContainsKey("Error"))
             {

@@ -1,5 +1,5 @@
 ﻿@page
-@model asp_presentacion.Pages.Ventanas.NotasModel
+@model asp_presentacion.Pages.Ventanas.BolasModel
 @{
     ViewData["Titulo"] = "";
 }
@@ -8,8 +8,9 @@
         <form method="POST"
               enctype="multipart/form-data">
             @Html.AntiForgeryToken()
+
             <div align="left">
-                <h3>Personas</h3>
+                <h3>Bolas</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -34,64 +35,39 @@
                        class="btn btn-secondary"
                        disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
             </div>
+
             @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Id" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.NotaFinal" />
+                       asp-for="@Model.Actual!.id" />
             }
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nota1" />
+                       asp-for="@Model.Actual!.nombre" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nota2" />
+                       asp-for="@Model.Actual!.diametro" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nota3" />
+                       asp-for="@Model.Actual!.Color" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nota4" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Nota5" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.NotaFinal" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Fecha" />
+                       asp-for="@Model.Actual!.peso" />
             }
+
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Casa</h3>
+                    <h3>Bolas</h3>
+
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Estudiante
+                                nombre
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmEstudiante"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Estudiante" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Materia
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmMateria"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Materia" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Nombre
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="Nombre"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nota1" />
+                                       asp-for="@Model.Actual!.nombre" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -99,19 +75,20 @@
                                 Diametro
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNota2"
+                                <input id="nmMateria"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nota2" />
+                                       asp-for="@Model.Actual!.diametro" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                               Color
+                                color
+                                
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNota3"
+                                <input id="Nombre"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nota3" />
+                                       asp-for="@Model.Actual!.Color" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -119,45 +96,15 @@
                                 Peso
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNota4"
+                                <input id="nmNota2"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nota4" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Nota 5
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmNota5"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nota5" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Nota final
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmNotaFinal"
-                                       disabled
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.NotaFinal" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Fecha
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmFecha"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Fecha" />
+                                       asp-for="@Model.Actual!.peso" />
                             </div>
                         </div>
                     </div>
                 </div>
             }
+
             @if (ViewData.ContainsKey("Mensaje"))
             {
                 <input type="hidden"
@@ -165,6 +112,7 @@
                 @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
                 ;
             }
+
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <div class='popup'>
@@ -173,12 +121,13 @@
                             <h2 align="left">
                                 Mensaje
                             </h2>
+
                             <h4 align="left">
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.Estudiante,
-                                @Model.Actual!.Materia
+                                @Model.Actual!.nombre,
+                                @Model.Actual!.diametro
                             </h6>
                             <br />
                             <br />
@@ -194,43 +143,30 @@
                     </div>
                 </div>
             }
+
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.Estudiante"
+                       asp-for="@Model.Filtro!.nombre"
                        placeholder="Nombre" />
                 <br />
+
                 <div class="containers_vn panel panel-default">
-                    <table class="tb_data table table-striped table-bordered tablehover">
+                    <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Estudiante
+                                Codigo
                             </th>
                             <th>
-                                Materia
+                                Nombre
                             </th>
                             <th class="cl_hidden">
-                                Nota 1
+                                Telefono
                             </th>
-                            <th class="cl_hidden">
-                                Nota 2
-                            </th>
-                            <th class="cl_hidden">
-                                Nota 3
-                            </th>
-                            <th class="cl_hidden">
-                                Nota 4
-                            </th>
-                            <th class="cl_hidden">
-                                Nota 5
-                            </th>
-                            <th class="cl_hidden">
-                                Nota final
-                            </th>
-                            <th>
-                                Fecha
+                            <th class="cl_actions">
+                                Dirreccion
                             </th>
                             <th class="cl_actions">
                                 Accion
@@ -242,43 +178,28 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.Estudiante
+                                        @elemento.nombre
                                     </td>
                                     <td>
-                                        @elemento.Materia
+                                        @elemento.diametro
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Nota1
+                                        @elemento.Color
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Nota2
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Nota3
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Nota4
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Nota5
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.NotaFinal
-                                    </td>
-                                    <td>
-                                        @elemento.Fecha.ToString("dd/MM/yyyy")
+                                        @elemento.peso
                                     </td>
                                     <td>
                                         <input type="submit"
                                                value="Modicar"
                                                asp-page-handler="BtModificar"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.Id" />
+                                               asp-route-data="@elemento.id" />
                                         <input type="submit"
                                                value="Borrar"
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
-                                               asp-route-data="@elemento.Id" />
+                                               asp-route-data="@elemento.id" />
                                     </td>
                                 </tr>
                             }

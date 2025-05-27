@@ -4,7 +4,7 @@ namespace lib_presentaciones.Interfaces
     public interface IPartidasPresentacion
     {
         Task<List<Partidas>> Listar();
-        Task<List<Partidas>> PorEstudiante(Partidas? entidad);
+        Task<List<Partidas>> Porcodigo(Partidas? entidad);
         Task<Partidas?> Guardar(Partidas? entidad);
         Task<Partidas?> Modificar(Partidas? entidad);
         Task<Partidas?> Borrar(Partidas? entidad);
