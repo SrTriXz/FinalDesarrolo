@@ -8,12 +8,12 @@ namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class BolasController : ControllerBase
+    public class JugadoresPartidasController : ControllerBase
     {
-        private IBolasAplicacion? iAplicacion = null;
+        private IJugadoresPartidasAplicacion? iAplicacion = null;
         private TokenController? tokenController = null;
 
-        public BolasController(IBolasAplicacion? iAplicacion,
+        public JugadoresPartidasController(IJugadoresPartidasAplicacion? iAplicacion,
             TokenController tokenController)
         {
             this.iAplicacion = iAplicacion;
@@ -68,11 +68,11 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Bolas>(
+                var entidad = JsonConversor.ConvertirAObjeto<JugadoresPartidas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
-                respuesta["Entidades"] = this.iAplicacion!.Pornombre(entidad);
+                respuesta["Entidades"] = this.iAplicacion!.Porcodigo(entidad);
 
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -98,7 +98,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Bolas>(
+                var entidad = JsonConversor.ConvertirAObjeto<JugadoresPartidas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
@@ -129,7 +129,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Bolas>(
+                var entidad = JsonConversor.ConvertirAObjeto<JugadoresPartidas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
@@ -146,6 +146,7 @@ namespace asp_servicios.Controllers
                 return JsonConversor.ConvertirAString(respuesta);
             }
         }
+
         [HttpPost]
         public string Borrar()
         {
@@ -159,7 +160,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                var entidad = JsonConversor.ConvertirAObjeto<Bolas>(
+                var entidad = JsonConversor.ConvertirAObjeto<JugadoresPartidas>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
