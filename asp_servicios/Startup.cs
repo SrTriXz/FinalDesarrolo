@@ -27,6 +27,14 @@ namespace asp_servicios
             services.AddScoped<IConexion, Conexion>();
             // Aplicaciones
             services.AddScoped<IBolasAplicacion, BolasAplicacion>();
+            services.AddScoped<IJugadoresAplicacion, JugadoresAplicacion>();
+            services.AddScoped<IJugadoresBolasAplicacion, JugadoresBolasAplicacion>();
+            services.AddScoped<IJugadoresLanzamientosAplicacion, JugadoresLanzamientosAplicacion>();
+            services.AddScoped<IJugadoresPartidasAplicacion, JugadoresPartidasAplicacion>();
+            services.AddScoped<ILanzamientosAplicacion, LanzamientosAplicacion>();
+            services.AddScoped<IPartidasAplicacion, PartidasAplicacion>();
+            services.AddScoped<IPistasAplicacion, PistasAplicacion>();
+
 
 
 
