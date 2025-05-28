@@ -8,5 +8,6 @@ namespace lib_presentaciones.Interfaces
         Task<JugadoresLanzamientos?> Guardar(JugadoresLanzamientos? entidad);
         Task<JugadoresLanzamientos?> Modificar(JugadoresLanzamientos? entidad);
         Task<JugadoresLanzamientos?> Borrar(JugadoresLanzamientos? entidad);
+        object PorJugador(JugadoresLanzamientos jugadoresLanzamientos);
     }
 }

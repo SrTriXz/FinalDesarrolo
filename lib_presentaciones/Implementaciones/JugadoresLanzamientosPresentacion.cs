@@ -94,5 +94,10 @@ namespace lib_presentaciones.Implementaciones
             JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
+
+        public object PorJugador(JugadoresLanzamientos jugadoresLanzamientos)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
