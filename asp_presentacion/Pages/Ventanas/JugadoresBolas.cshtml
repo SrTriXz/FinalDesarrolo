@@ -34,6 +34,16 @@
                        asp-page-handler="BtCancelar"
                        class="btn btn-secondary"
                        disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Excel"
+                       asp-page-handler="BtExcel"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="PDF"
+                       asp-page-handler="BtPDF"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
             </div>
 
             @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
@@ -117,6 +127,24 @@
                                        asp-for="@Model.Actual!.efectividad" />
                             </div>
                         </div>
+
+
+                    
+
+                    @* --- NUEVO CAMPO PARA SUBIR IMAGEN --- *@
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label">
+                            Imagen de la Bola
+                        </label>
+                        <div class="col-lg-6">
+                            <input type="file"
+                                   id="nmArchivoImagen"
+                                   class="form-control"
+                                   asp-for="ArchivoImagen"
+                                   accept="image/*" /> @* El atributo accept sugiere al navegador filtrar por tipos de imagen *@
+                        </div>
+                    </div>
+                    @* --- FIN NUEVO CAMPO PARA SUBIR IMAGEN --- *@
 
                     </div>
                 </div>

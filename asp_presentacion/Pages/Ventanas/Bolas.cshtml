@@ -34,6 +34,16 @@
                        asp-page-handler="BtCancelar"
                        class="btn btn-secondary"
                        disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Excel"
+                       asp-page-handler="BtExcel"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="PDF"
+                       asp-page-handler="BtPDF"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
             </div>
 
             @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
@@ -104,7 +114,7 @@
                             </div>
 
 
-</div>
+                        </div>
 
                     @* --- NUEVO CAMPO PARA SUBIR IMAGEN --- *@
                     <div class="form-group">
