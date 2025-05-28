@@ -21,13 +21,13 @@ namespace lib_presentaciones.Implementaciones
             JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
-        public async Task<List<JugadoresBolas>> Pornombre(JugadoresBolas? entidad)
+        public async Task<List<JugadoresBolas>> Porefectividadmbre(JugadoresBolas? entidad)
         {
             var lista = new List<JugadoresBolas>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad!;
             comunicaciones = new Comunicaciones();
-            datos = comunicaciones.ConstruirUrl(datos, "JugadoresBolas/Pornombre");
+            datos = comunicaciones.ConstruirUrl(datos, "JugadoresBolas/Porefectividadmbre");
             var respuesta = await comunicaciones!.Execute(datos);
             if (respuesta.ContainsKey("Error"))
             {
@@ -93,6 +93,11 @@ namespace lib_presentaciones.Implementaciones
             entidad = JsonConversor.ConvertirAObjeto<JugadoresBolas>(
             JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
+        }
+
+        public Task<List<JugadoresBolas>> Porefectividad(JugadoresBolas? entidad)
+        {
+            throw new NotImplementedException();
         }
     }
 }
