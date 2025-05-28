@@ -211,10 +211,13 @@
                                 Partida
                             </th>
                             <th>
-                                Pino derribado
+                                codigo
                             </th>
                             <th>
-                                Puntaje obtenido
+                                Turno
+                            </th>
+                            <th>
+                                Puntaje
                             </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -239,6 +242,9 @@
                                     </td>
                                     <td>
                                         @elemento.turno
+                                    </td>
+                                    <td>
+                                        @elemento.puntaje
                                     </td>
                                     <td>
                                         <input type="submit"

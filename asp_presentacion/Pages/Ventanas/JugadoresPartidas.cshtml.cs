@@ -42,10 +42,10 @@ namespace asp_presentacion.Pages.Ventanas
                 //    return;
                 //}
 
-                Filtro!.Jugador = Filtro!.Jugador;
+                Filtro!.codigo = Filtro!.codigo ??"";
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Porjugador(Filtro!);
+                var task = this.iPresentacion!.Porcodigo (Filtro!);
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;

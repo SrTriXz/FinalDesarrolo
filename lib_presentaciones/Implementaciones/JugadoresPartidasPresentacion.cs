@@ -94,5 +94,10 @@ namespace lib_presentaciones.Implementaciones
             JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
+
+        public Task<List<JugadoresPartidas>> Porcodigo(JugadoresPartidas? entidad)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
