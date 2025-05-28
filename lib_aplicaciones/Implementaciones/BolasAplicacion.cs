@@ -7,7 +7,7 @@ namespace lib_aplicaciones.Implementaciones
 {
     public class BolasAplicacion : IBolasAplicacion
     {
-        private IConexion? IConexion = null;
+        private IConexion? IConexion = null; 
 
         public BolasAplicacion(IConexion iConexion)
         {
