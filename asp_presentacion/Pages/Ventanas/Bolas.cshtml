@@ -79,30 +79,49 @@
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.diametro" />
                             </div>
-                        </div>
-                        <div class="form-group">
+
+                        </div class="form-group">          
                             <label class="col-lg-4 control-label">
-                                color
-                                
+                                color    
                             </label>
                             <div class="col-lg-6">
                                 <input id="Nombre"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Color" />
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Peso
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmNota2"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.peso" />
+                        
+
+                    
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">
+                                    Peso
+                                </label>
+                                <div class="col-lg-6">
+                                    <input id="nmNota2"
+                                           class="cts_forms form-control"
+                                           asp-for="@Model.Actual!.peso" />
+                                </div>
                             </div>
+
+
+</div>
+
+                    @* --- NUEVO CAMPO PARA SUBIR IMAGEN --- *@
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label">
+                            Imagen de la Bola
+                        </label>
+                        <div class="col-lg-6">
+                            <input type="file"
+                                   id="nmArchivoImagen"
+                                   class="form-control"
+                                   asp-for="ArchivoImagen"
+                                   accept="image/*" /> @* El atributo accept sugiere al navegador filtrar por tipos de imagen *@
                         </div>
-                    </div>
-                </div>
+                        </div>
+                        @* --- FIN NUEVO CAMPO PARA SUBIR IMAGEN --- *@
+                        </div>
+               
             }
 
             @if (ViewData.ContainsKey("Mensaje"))

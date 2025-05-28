@@ -28,6 +28,7 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Bolas? Actual { get; set; }
         [BindProperty] public Bolas? Filtro { get; set; }
         [BindProperty] public List<Bolas>? Lista { get; set; }
+        [BindProperty] public IFormFile? ArchivoImagen { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
