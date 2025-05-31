@@ -18,5 +18,7 @@ namespace lib_dominio.Entidades
         public Jugadores? Ganador { get; set; }
         public int? puntaje_final { get; set; }
         public List<JugadoresPartidas> JugadoresPartidas { get; set; } = new List<JugadoresPartidas>();
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
     }
 }

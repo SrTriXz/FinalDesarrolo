@@ -14,5 +14,7 @@ namespace lib_dominio.Entidades
         public int? bolaId { get; set; }
         public Bolas? Bola { get; set; }
         public string? efectividad { get; set; }
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
     }
 }

@@ -16,5 +16,7 @@ namespace lib_dominio.Entidades
         public string? codigo { get; set; }
         public int? turno { get; set; }
         public int? puntaje { get; set; }
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
     }
 }

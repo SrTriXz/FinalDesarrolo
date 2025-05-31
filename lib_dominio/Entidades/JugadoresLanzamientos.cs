@@ -15,5 +15,7 @@ namespace lib_dominio.Entidades
         public Lanzamientos? Lanzamiento { get; set; }
         public int? pino_derribado { get; set; }
         public int? puntaje_obtenido { get; set; }
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
     }
 }

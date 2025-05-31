@@ -12,5 +12,7 @@ namespace lib_dominio.Entidades
         public string? nombre { get; set; }
         public string? estado { get; set; }
         public List<Partidas> Partidas { get; set; } = new List<Partidas>();
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
     }
 }
