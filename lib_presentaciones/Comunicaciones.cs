@@ -9,7 +9,7 @@ namespace lib_presentaciones
         token = null;
         public Comunicaciones(string servicio = "asp_servicios/",
         string protocolo = "http://",
-        string host = "localhost")
+        string host = "localhost:5261")
         {
             Protocolo = protocolo;
             Host = host;
