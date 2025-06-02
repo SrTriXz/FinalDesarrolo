@@ -1,4 +1,294 @@
 ﻿@page
 @model asp_presentacion.Pages.Ventanas.PartidasModel
 @{
+    ViewData["Titulo"] = "hora_finals";
 }
+<center>
+    <div>
+        <form method="POST"
+              enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <div align="left">
+                <h3>fechaes hora_finals</h3>
+            </div>
+            <div align="left"
+                 class="bt_panel_buttons">
+                <input type="submit"
+                       value="Refrescar"
+                       asp-page-handler="BtRefrescar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Nuevo"
+                       asp-page-handler="BtNuevo"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Guardar"
+                       asp-page-handler="BtGuardar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Cancelar"
+                       asp-page-handler="BtCancelar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+            </div>
+
+            @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.id" />
+            }
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.codigo" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.estado" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.fecha" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.hora_inicio " />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.hora_final" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.puntaje_final" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.ganadorId" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Ganador" />
+             
+                
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
+            {
+                <div class="containers_vn panel panel-default">
+                    <h3>fechaes hora_finals</h3>
+
+                    <div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Codigo
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmEstudiante"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.codigo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Estado
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmEstudiante"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.estado" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                fecha
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmMateria"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.fecha" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Hora Inicio
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.hora_inicio" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Hora Final
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.hora_final" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Puntaje Final
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.puntaje_final" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Ganador Id
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.ganadorId" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Ganador
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Ganador" />
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            }
+
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                <input type="hidden"
+                       asp-for="@Model.Accion" />
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+                ;
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <div class='popup'>
+                    <div class='pp_del_inner'>
+                        <div style='width:95%'>
+                            <h2 align="left">
+                                Mensaje
+                            </h2>
+
+                            <h4 align="left">
+                                Desea borrar la entidad?
+                            </h4>
+                            <h6 align="left">
+                                @Model.Actual!.estado,
+                                @Model.Actual!.fecha
+                            </h6>
+                            <br />
+                            <br />
+                            <input type="submit"
+                                   value="Borrar"
+                                   asp-page-handler="BtBorrar"
+                                   class="btn btn-secondary" />
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flNombre"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Filtro!.estado"
+                       placeholder="estado" />
+                <br />
+
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>
+                               Codigo
+                            </th>
+                            <th>
+                                Fecha
+                            </th>
+                            <th>
+                                Hora inicio
+                            </th>
+                            <th class="cl_actions">
+                                Hora Final 
+                            </th>
+                            <th>
+                                Hora Final
+                            </th>
+                            <th>
+                                estado
+                            </th>
+                            <th>
+                                Ganador Id
+                            </th>
+                            <th>
+                                Ganador  
+                            </th>
+                            <th>
+                                Puntaje Final
+                            </th>
+                        
+                        </tr>
+                        @if (Model != null && Model.Lista != null)
+                        {
+                            @foreach (var elemento in Model.Lista)
+                            {
+                                <tr>
+                                    <td>
+                                        @elemento.estado
+                                    </td>
+                                    <td>
+                                        @elemento.fecha
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.hora_inicio
+                                    </td>
+                                    <td>
+                                        @elemento.hora_final
+                                    </td>
+                                    <td>
+                                        @elemento.estado
+                                    </td>
+                                    <td>
+                                        @elemento.ganadorId
+                                    </td>
+                                    <td>
+                                        @elemento.Ganador 
+                                    </td>
+                                    <td>
+                                        @elemento.puntaje_final
+                                    </td>
+                                   
+                                    <td>
+                                        <input type="submit"
+                                               value="Modicar"
+                                               asp-page-handler="BtModificar"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.id" />
+                                        <input type="submit"
+                                               value="Borrar"
+                                               asp-page-handler="BtBorrarVal"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.id" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            }
+        </form>
+    </div>
+</center>
