@@ -91,24 +91,25 @@
                                 </li>
                             @*--- FIN: ENLACES VISIBLES PARA TODOS LOS USUARIOS LOGUEADOS --- *@
 
-                            @* --- ENLACES ADICIONALES SOLO PARA ADMIN --- *@
+                            @* --- INICIO: ENLACES ADICIONALES SOLO PARA ADMIN --- *@
                             @if (Context.Session.GetString("UserRole") == "Admin")
                             {
-                                        <li class="nav-item">
-                                            <a class="nav-link text-info" 
-                                               asp-area=""
-                                               asp-page="/Auditoria/HistorialAuditoria"> 
-                                                Ver Auditoría
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-info"
-                                               asp-area=""
-                                               asp-page="/Admin/GestionEntidades"> 
-                                                Gestión Avanzada
-                                            </a>
-                                        </li>
-                                
+                                <li class="nav-item me-2">
+                                    @* me-2 añade un pequeño margen a la derecha si hay más botones admin *@
+                                    <a class="btn btn-primary btn-sm" @* Convertido a botón primario de Bootstrap, tamaño pequeño *@
+                                       asp-area=""
+                                       asp-page="/Auditoria/HistorialAuditoria">
+                                        Ver Auditoría
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-info btn-sm" @* Convertido a botón info de Bootstrap, tamaño pequeño *@
+                                       asp-area=""
+                                       asp-page="/Admin/GestionEntidades">
+                                        Gestión Avanzada
+                                    </a>
+                                </li>
+                                @* Puedes agregar más enlaces solo para Admin aquí, con clases de botón similares *@
                             }
                             @* --- FIN: ENLACES ADICIONALES SOLO PARA ADMIN --- *@
                         }
