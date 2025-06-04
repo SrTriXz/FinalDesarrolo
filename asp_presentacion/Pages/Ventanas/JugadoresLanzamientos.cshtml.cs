@@ -1,3 +1,4 @@
+using ClosedXML.Excel;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Interfaces;
@@ -158,6 +159,59 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
                 LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public IActionResult OnPostBtExportarExcel()
+        {
+            try
+            {
+
+                OnPostBtRefrescar();
+
+                if (Lista == null || !Lista.Any())
+                {
+                    ViewData["Error"] = "No hay datos para exportar.";
+                    return Page();
+                }
+
+                using var workbook = new XLWorkbook();
+                var worksheet = workbook.Worksheets.Add("JugadoresLanzamientos");
+
+
+                worksheet.Cell(1, 1).Value = "jugador Id";
+                worksheet.Cell(1, 2).Value = "Jugador";
+                worksheet.Cell(1, 3).Value = "lanzamiento Id";
+                worksheet.Cell(1, 3).Value = "Lanzamiento";
+                worksheet.Cell(1, 3).Value = "Pino derribado";
+                worksheet.Cell(1, 3).Value = "Puntaje obtenido";
+
+
+                for (int i = 0; i < Lista.Count; i++)
+                {
+                    var JugadoresLanzamientos = Lista[i];
+                    worksheet.Cell(i + 2, 1).Value = JugadoresLanzamientos.jugadorId;
+                    worksheet.Cell(i + 2, 2).Value = JugadoresLanzamientos.Jugador?.nombre ?? "Sin nombre";
+                    worksheet.Cell(i + 2, 3).Value = JugadoresLanzamientos.lanzamientoId;
+                    worksheet.Cell(i + 2, 3).Value = JugadoresLanzamientos.Lanzamiento?.nombre ?? "Sin nombre";
+                    worksheet.Cell(i + 2, 3).Value = JugadoresLanzamientos.pino_derribado;
+                    worksheet.Cell(i + 2, 3).Value = JugadoresLanzamientos.puntaje_obtenido;
+
+                }
+
+                using var stream = new MemoryStream();
+                workbook.SaveAs(stream);
+                stream.Seek(0, SeekOrigin.Begin);
+
+                var nombreArchivo = $"JugadoresLanzamientos_{DateTime.Now:yyyyMMddHHmmss}.xlsx";
+                return File(stream.ToArray(),
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    nombreArchivo);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return Page();
             }
         }
     }

@@ -1,4 +1,5 @@
 
+using ClosedXML.Excel;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Interfaces;
@@ -160,6 +161,52 @@ namespace asp_presentacion.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
-       
+
+        public IActionResult OnPostBtExportarExcel()
+        {
+            try
+            {
+
+                OnPostBtRefrescar();
+
+                if (Lista == null || !Lista.Any())
+                {
+                    ViewData["Error"] = "No hay datos para exportar.";
+                    return Page();
+                }
+
+                using var workbook = new XLWorkbook();
+                var worksheet = workbook.Worksheets.Add("Pistas");
+
+
+                worksheet.Cell(1, 1).Value = "nombre";
+                worksheet.Cell(1, 2).Value = "estado";
+
+
+
+                for (int i = 0; i < Lista.Count; i++)
+                {
+                    var Pistas = Lista[i];
+                    worksheet.Cell(i + 2, 1).Value = Pistas.nombre;
+                    worksheet.Cell(i + 2, 2).Value = Pistas.estado;
+
+                }
+
+                using var stream = new MemoryStream();
+                workbook.SaveAs(stream);
+                stream.Seek(0, SeekOrigin.Begin);
+
+                var nombreArchivo = $"Pistas_{DateTime.Now:yyyyMMddHHmmss}.xlsx";
+                return File(stream.ToArray(),
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    nombreArchivo);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+                return Page();
+            }
+        }
+
     }
 }
