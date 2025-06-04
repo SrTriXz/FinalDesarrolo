@@ -13,9 +13,9 @@ namespace lib_dominio.Entidades
         public double? diametro { get; set; }
         public string? Color { get; set; }
         public double? peso { get; set; }
+        public byte[]? ImagenData { get; set; }
+        public string? ImagenMimeType { get; set; }
         public List<JugadoresBolas> JugadoresBolas { get; set; } = new List<JugadoresBolas>();
 
-        public byte[]? ImagenData { get; set; }     
-        public string? ImagenMimeType { get; set; } 
     }
 }
