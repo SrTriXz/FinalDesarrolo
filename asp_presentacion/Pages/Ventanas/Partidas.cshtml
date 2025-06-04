@@ -67,8 +67,10 @@
                        asp-for="@Model.Actual!.ganadorId" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.Ganador" />
-             
-                
+                <input type="hidden"
+                       asp-for="@Model.Actual!.ImagenData" />
+
+
             }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -162,6 +164,32 @@
                                        asp-for="@Model.Actual!.Ganador" />
                             </div>
                         </div>
+
+                        <div class="form-group">
+
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNota2"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.ImagenData" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen de la Bola
+                            </label>
+                            <div class="col-lg-6">
+                                <input type="file"
+                                       id="nmArchivoImagen"
+                                       class="form-control"
+                                       asp-for="ArchivoImagen"
+                                       accept="image/*" />
+                            </div>
+                        </div>
+
                         
 
                     </div>
@@ -246,6 +274,9 @@
                             <th>
                                 Puntaje Final
                             </th>
+                            <th>
+                                Imagen
+                            </th>
                         
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -276,6 +307,9 @@
                                     </td>
                                     <td>
                                         @elemento.puntaje_final
+                                    </td>
+                                    <td>
+                                        @elemento.ImagenData
                                     </td>
                                    
                                     <td>

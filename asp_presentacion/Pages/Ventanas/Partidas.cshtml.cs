@@ -28,6 +28,8 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Partidas? Actual { get; set; }
         [BindProperty] public Partidas? Filtro { get; set; }
         [BindProperty] public List<Partidas>? Lista { get; set; }
+        [BindProperty] public IFormFile? ArchivoImagen { get; set; }
+
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 

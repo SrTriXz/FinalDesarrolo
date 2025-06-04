@@ -57,6 +57,8 @@
                        asp-for="@Model.Actual!.apellido" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.edad" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.ImagenData" />
                        
             }
 
@@ -98,9 +100,19 @@
                             </div>
                         </div>
 
+                        <div class="form-group">
+
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNota2"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.ImagenData" />
+                            </div>
+                        </div>
 
 
-                        @* --- NUEVO CAMPO PARA SUBIR IMAGEN --- *@
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 Imagen de la Bola
@@ -110,10 +122,9 @@
                                        id="nmArchivoImagen"
                                        class="form-control"
                                        asp-for="ArchivoImagen"
-                                       accept="image/*" /> @* El atributo accept sugiere al navegador filtrar por tipos de imagen *@
+                                       accept="image/*" />
                             </div>
                         </div>
-                        @* --- FIN NUEVO CAMPO PARA SUBIR IMAGEN --- *@
 
 
                     </div>
@@ -180,6 +191,9 @@
                             <th class="cl_actions">
                                 Edad
                             </th>
+                            <th>
+                                Imagen
+                            </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
@@ -194,6 +208,9 @@
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento.edad
+                                    </td>
+                                    <td>
+                                        @elemento.ImagenData
                                     </td>
                                     <td>
                                         <input type="submit"

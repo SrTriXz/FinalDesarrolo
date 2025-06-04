@@ -63,9 +63,8 @@
                        asp-for="@Model.Actual!.pino_derribado" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.puntaje_obtenido" />
-                       
-
-
+                <input type="hidden"
+                       asp-for="@Model.Actual!.ImagenData" />
 
             }
 
@@ -137,6 +136,30 @@
                                 <input id="Nombre"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.puntaje_obtenido" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNota2"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.ImagenData" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen de la Bola
+                            </label>
+                            <div class="col-lg-6">
+                                <input type="file"
+                                       id="nmArchivoImagen"
+                                       class="form-control"
+                                       asp-for="ArchivoImagen"
+                                       accept="image/*" />
                             </div>
                         </div>
 
@@ -213,6 +236,9 @@
                             <th>
                                 Puntaje obtenido
                             </th>
+                            <th>
+                                Imagen
+                            </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
@@ -236,6 +262,9 @@
                                     </td>
                                     <td>
                                         @elemento.puntaje_obtenido
+                                    </td>
+                                    <td>
+                                        @elemento.ImagenData
                                     </td>
                                     <td>
                                         <input type="submit"

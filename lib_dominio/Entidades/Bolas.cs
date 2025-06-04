@@ -15,7 +15,7 @@ namespace lib_dominio.Entidades
         public double? peso { get; set; }
         public List<JugadoresBolas> JugadoresBolas { get; set; } = new List<JugadoresBolas>();
 
-        public byte[]? ImagenData { get; set; }     // Aquí guardaremos los bytes de la imagen.
-        public string? ImagenMimeType { get; set; } // Aquí guardaremos el tipo, ej: "image/jpeg", "image/png".
+        public byte[]? ImagenData { get; set; }     
+        public string? ImagenMimeType { get; set; } 
     }
 }

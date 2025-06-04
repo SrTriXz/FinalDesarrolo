@@ -53,7 +53,9 @@
             {
                 <input type="hidden"
                        asp-for="@Model.Actual!.nombre" />
-           
+                <input type="hidden"
+                       asp-for="@Model.Actual!.ImagenData" />
+
             }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -72,6 +74,31 @@
                                        asp-for="@Model.Actual!.nombre" />
                             </div>
                         </div>
+                        <div class="form-group">
+
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmNota2"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.ImagenData" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen de la Bola
+                            </label>
+                            <div class="col-lg-6">
+                                <input type="file"
+                                       id="nmArchivoImagen"
+                                       class="form-control"
+                                       asp-for="ArchivoImagen"
+                                       accept="image/*" />
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
@@ -131,6 +158,9 @@
                             <th>
                                 nombre
                             </th>
+                            <th>
+                                Imagen
+                            </th>
                             
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -142,6 +172,9 @@
                                         @elemento.nombre
                                     
                                     <td>
+                                    <td>
+                                                @elemento.ImagenData
+                                    </td>
                                         <input type="submit"
                                                value="Modicar"
                                                asp-page-handler="BtModificar"
@@ -152,7 +185,7 @@
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
                                                asp-route-data="@elemento.id" />
-                                    </td>
+                                    
                                 </tr>
                             }
                         }
