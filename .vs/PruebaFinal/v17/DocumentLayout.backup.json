@@ -1,0 +1,1116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emman\\Desktop\\PruebaFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\emergentes\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\emergentes\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadorespartidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadorespartidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadoreslanzamientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadoreslanzamientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadoresbolas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadoresbolas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\bolas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\bolas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadores.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadores.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadoresbolas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadoresbolas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadoreslanzamientos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadoreslanzamientos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\jugadorespartidas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\jugadorespartidas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\pages\\ventanas\\bolas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\bolas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_presentacion\\asp_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD8A1B36-76D7-4685-AD01-152F0C8B4739}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\asp_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\pistaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\pistaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\partidaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\partidaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\lanzamientospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\lanzamientospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\jugadorespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\jugadorespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\jugadorespartidaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\jugadorespartidaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\jugadoreslanzamientospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\jugadoreslanzamientospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\jugadoresbolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\jugadoresbolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\implementaciones\\bolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\bolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\interfaces\\ibolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\ibolaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_presentaciones\\lib_presentaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91387CD9-2DF0-4A11-ADBA-D16573255B65}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\lib_presentaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\bolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\bolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_aplicaciones\\implementaciones\\bolasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\bolasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_aplicaciones\\implementaciones\\jugadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\jugadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_aplicaciones\\interfaces\\ijugadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\ijugadoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\jugadoresbolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\jugadoresbolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\jugadoreslanzamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\jugadoreslanzamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\lanzamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\lanzamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\jugadorespartidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\jugadorespartidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_aplicaciones\\interfaces\\ibolasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\ibolasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\asp_servicios.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\asp_servicios.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\asp_servicios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99E851D9-1DED-4357-B5C3-C94403CD5979}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_aplicaciones\\interfaces\\ipartidasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953DAD20-9D8F-47DD-99A6-19DE197C8843}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\ipartidasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\entidades\\partidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\partidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\entidades\\pistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\entidades\\jugadorespartidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\jugadorespartidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\entidades\\jugadoreslanzamientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\jugadoreslanzamientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\entidades\\jugadoresbolas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\jugadoresbolas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\jugadoreslanzamientosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\jugadoreslanzamientosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\jugadoresbolasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\jugadoresbolasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\emman\\Desktop\\PruebaFinal\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\pistasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\pistasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\lanzamientosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\lanzamientosprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\jugadoresprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\jugadoresprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\jugadorespartidasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\jugadorespartidasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\repositorios\\bolasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\repositorios\\bolasprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|c:\\users\\emman\\desktop\\pruebafinal\\mst_presentacion\\mst_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B933411-A6F8-4485-92F5-8580B363F99F}|mst_presentacion\\mst_presentacion.csproj|solutionrelative:mst_presentacion\\mst_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_repositorios\\lib_repositorios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6524D418-63B8-482B-81C5-62568B3C288F}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\lib_repositorios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|c:\\users\\emman\\desktop\\pruebafinal\\lib_dominio\\lib_dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C737845-36B2-4DBD-BC67-E1290DDFF9AD}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\lib_dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwD8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:45:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:45:10.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mensajes.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Emergentes\\Mensajes.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Emergentes\\Mensajes.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Emergentes\\Mensajes.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Emergentes\\Mensajes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:44:39.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:41:14.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JugadoresPartidas.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml",
+              "ViewState": "AgIAABQBAAAAAAAAAAAcwBsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:35:21.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JugadoresLanzamientos.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAlwAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:34:39.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JugadoresBolas.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAlwPUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:34:11.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JugadoresPartidas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresPartidas.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:28:25.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JugadoresLanzamientos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresLanzamientos.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:28:18.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JugadoresBolas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\JugadoresBolas.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:28:14.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Jugadores.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Jugadores.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Jugadores.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Jugadores.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Jugadores.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:28:09.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bolas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml.cs",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAvwK8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:27:30.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bolas.cshtml",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Bolas.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T22:27:22.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAmwMUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T21:53:14.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Startup.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Startup.cs",
+              "RelativeToolTip": "asp_presentacion\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:49:11.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "asp_presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\Program.cs",
+              "RelativeToolTip": "asp_presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:48:52.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "asp_presentacion.csproj",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\asp_presentacion.csproj",
+              "RelativeDocumentMoniker": "asp_presentacion\\asp_presentacion.csproj",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_presentacion\\asp_presentacion.csproj",
+              "RelativeToolTip": "asp_presentacion\\asp_presentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T21:48:33.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PistasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\PistasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\PistasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\PistasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\PistasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:39:30.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartidasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\PartidasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\PartidasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\PartidasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\PartidasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:39:22.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LanzamientosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\LanzamientosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\LanzamientosPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\LanzamientosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\LanzamientosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:39:13.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JugadoresPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\JugadoresPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\JugadoresPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:39:04.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JugadoresPartidasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresPartidasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\JugadoresPartidasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresPartidasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\JugadoresPartidasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:38:53.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JugadoresLanzamientosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresLanzamientosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\JugadoresLanzamientosPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresLanzamientosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\JugadoresLanzamientosPresentacion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:38:35.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBolasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Interfaces\\IBolasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IBolasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Interfaces\\IBolasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Interfaces\\IBolasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:36:52.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BolasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\BolasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\BolasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\BolasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\BolasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:34:40.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JugadoresBolasPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresBolasPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\JugadoresBolasPresentacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Implementaciones\\JugadoresBolasPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\JugadoresBolasPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:34:38.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:30:47.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "lib_presentaciones.csproj",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\lib_presentaciones.csproj",
+              "RelativeDocumentMoniker": "lib_presentaciones\\lib_presentaciones.csproj",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_presentaciones\\lib_presentaciones.csproj",
+              "RelativeToolTip": "lib_presentaciones\\lib_presentaciones.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T21:29:21.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LanzamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\LanzamientosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\LanzamientosController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\LanzamientosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\LanzamientosController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:42.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "JugadoresLanzamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresLanzamientosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\JugadoresLanzamientosController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresLanzamientosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\JugadoresLanzamientosController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:35.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "JugadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\JugadoresController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\JugadoresController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:29.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "JugadoresBolasController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresBolasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\JugadoresBolasController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresBolasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\JugadoresBolasController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:23.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IJugadoresAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IJugadoresAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\IJugadoresAplicacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IJugadoresAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\IJugadoresAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:28:36.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JugadoresAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Implementaciones\\JugadoresAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\JugadoresAplicacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Implementaciones\\JugadoresAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\JugadoresAplicacion.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:28:33.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BolasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Implementaciones\\BolasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\BolasAplicacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Implementaciones\\BolasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\BolasAplicacion.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:27:59.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BolasController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\BolasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\BolasController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\BolasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\BolasController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:17.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JugadoresPartidasController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresPartidasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\JugadoresPartidasController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\JugadoresPartidasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\JugadoresPartidasController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:48:39.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IBolasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IBolasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\IBolasAplicacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IBolasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\IBolasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:28:27.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "asp_servicios.http",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\asp_servicios.http",
+              "RelativeDocumentMoniker": "asp_servicios\\asp_servicios.http",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\asp_servicios.http",
+              "RelativeToolTip": "asp_servicios\\asp_servicios.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-04T20:32:23.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:45:54.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeToolTip": "asp_servicios\\Nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:45:08.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:41:56.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\appsettings.json",
+              "RelativeDocumentMoniker": "asp_servicios\\appsettings.json",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\appsettings.json",
+              "RelativeToolTip": "asp_servicios\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T20:39:01.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "asp_servicios\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Properties\\launchSettings.json",
+              "RelativeToolTip": "asp_servicios\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T20:37:49.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:36:11.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IPartidasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IPartidasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\IPartidasAplicacion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_aplicaciones\\Interfaces\\IPartidasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\IPartidasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:25:22.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Pistas.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\Pistas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pistas.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\Pistas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Pistas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:37.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Partidas.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\Partidas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Partidas.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\Partidas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Partidas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "JugadoresPartidas.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresPartidas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\JugadoresPartidas.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresPartidas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\JugadoresPartidas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:32.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "JugadoresLanzamientos.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresLanzamientos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\JugadoresLanzamientos.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresLanzamientos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\JugadoresLanzamientos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:28.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "JugadoresBolas.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresBolas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\JugadoresBolas.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Entidades\\JugadoresBolas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\JugadoresBolas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:24.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:13:24.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\secrets.json",
+              "RelativeDocumentMoniker": "secrets.json",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\secrets.json",
+              "RelativeToolTip": "secrets.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T20:12:53.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PistasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\PistasPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\PistasPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\PistasPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\PistasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:09:41.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "JugadoresPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\JugadoresPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\JugadoresPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:09:31.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "JugadoresPartidasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresPartidasPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\JugadoresPartidasPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresPartidasPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\JugadoresPartidasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:09:30.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "JugadoresLanzamientosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresLanzamientosPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\JugadoresLanzamientosPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresLanzamientosPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\JugadoresLanzamientosPrueba.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:09:28.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "JugadoresBolasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresBolasPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\JugadoresBolasPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\JugadoresBolasPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\JugadoresBolasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:08:09.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BolasPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\BolasPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\BolasPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\BolasPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\BolasPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:08:01.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LanzamientosPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\LanzamientosPrueba.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Repositorios\\LanzamientosPrueba.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Repositorios\\LanzamientosPrueba.cs",
+              "RelativeToolTip": "mst_presentacion\\Repositorios\\LanzamientosPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:06:59.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "script.sql",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\script.sql",
+              "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\script.sql",
+              "RelativeToolTip": "lib_repositorios\\script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-04T19:54:15.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Nucleo\\Configuracion.cs",
+              "RelativeToolTip": "mst_presentacion\\Nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:05:25.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EntidadesNucleo.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeDocumentMoniker": "mst_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeToolTip": "mst_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA8wAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:04:05.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "mst_presentacion.csproj",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\mst_presentacion.csproj",
+              "RelativeDocumentMoniker": "mst_presentacion\\mst_presentacion.csproj",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\mst_presentacion\\mst_presentacion.csproj",
+              "RelativeToolTip": "mst_presentacion\\mst_presentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T20:02:55.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IConexion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\Interfaces\\IConexion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IConexion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\Interfaces\\IConexion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:00:32.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\Implementaciones\\Conexion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\Implementaciones\\Conexion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Conexion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:56:49.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "lib_repositorios.csproj",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\lib_repositorios.csproj",
+              "RelativeDocumentMoniker": "lib_repositorios\\lib_repositorios.csproj",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_repositorios\\lib_repositorios.csproj",
+              "RelativeToolTip": "lib_repositorios\\lib_repositorios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T19:55:36.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "lib_dominio.csproj",
+              "DocumentMoniker": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\lib_dominio.csproj",
+              "RelativeDocumentMoniker": "lib_dominio\\lib_dominio.csproj",
+              "ToolTip": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\lib_dominio.csproj",
+              "RelativeToolTip": "lib_dominio\\lib_dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T19:51:01.234Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

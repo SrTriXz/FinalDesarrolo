@@ -1,0 +1,320 @@
+﻿@page
+@model asp_presentacion.Pages.Ventanas.JugadoresPartidasModel
+@{
+    ViewData["Titulo"] = "JugadoresPartidas";
+}
+<center>
+    <div>
+        <form method="POST"
+              enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <div align="left">
+                <h3>Jugadores Partidas</h3>
+            </div>
+            <div align="left"
+                 class="bt_panel_buttons">
+                <input type="submit"
+                       value="Refrescar"
+                       asp-page-handler="BtRefrescar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Nuevo"
+                       asp-page-handler="BtNuevo"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Guardar"
+                       asp-page-handler="BtGuardar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Cancelar"
+                       asp-page-handler="BtCancelar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+
+                <input type="submit"
+                       value="Reportes"
+                       asp-page-handler="BtExportarExcel"
+                       class="btn btn-success"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+
+                <button type="button" id="btnImprimirDatos" class="btn btn-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
+                        <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" />
+                        <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+                    </svg>
+                    Imprimir
+                </button>
+            </div>
+
+            @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.id" />
+            }
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input type="hidden"
+                       asp-for="@Model.Actual!.jugadorId" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Jugador" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.partidaId " />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Partida" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.codigo" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.turno" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.puntaje" />
+
+
+
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
+            {
+                <div class="containers_vn panel panel-default">
+                    <h3>Jugadores Partidas</h3>
+
+                    <div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Jugador Id
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmEstudiante"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.jugadorId" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Jugador
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmMateria"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Jugador" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Partida Id
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.partidaId" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Partida
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Partida" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Codigo
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.codigo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Turno
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.turno" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Puntaje
+
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="Nombre"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.puntaje" />
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen de la Bola
+                            </label>
+                            <div class="col-lg-6">
+                                <input type="file"
+                                       id="nmArchivoImagen"
+                                       class="form-control"
+                                       asp-for="ArchivoImagen"
+                                       accept="image/*" />
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            }
+
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                <input type="hidden"
+                       asp-for="@Model.Accion" />
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+                ;
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <div class='popup'>
+                    <div class='pp_del_inner'>
+                        <div style='width:95%'>
+                            <h2 align="left">
+                                Mensaje
+                            </h2>
+
+                            <h4 align="left">
+                                Desea borrar la entidad?
+                            </h4>
+                            <h6 align="left">
+                                @Model.Actual!.jugadorId,
+                                @Model.Actual!.Jugador
+                            </h6>
+                            <br />
+                            <br />
+                            <input type="submit"
+                                   value="Borrar"
+                                   asp-page-handler="BtBorrar"
+                                   class="btn btn-secondary" />
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
+            Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flNombre"
+                       class="cts_forms form-control"
+                       asp-for="@Model.Filtro!.jugadorId"
+                       placeholder="JugadorId" />
+                <br />
+
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>
+                                Jugador Id
+                            </th>
+                            <th>
+                                Jugador
+                            </th>
+                            <th class="cl_actions">
+                                Partida Id
+                            </th>
+                            <th>
+                                Partida
+                            </th>
+                            <th>
+                                codigo
+                            </th>
+                            <th>
+                                Turno
+                            </th>
+                            <th>
+                                Puntaje
+                            </th>
+                            <th>
+                                Imagen
+                            </th>
+                        </tr>
+                        @if (Model != null && Model.Lista != null)
+                        {
+                            @foreach (var elemento in Model.Lista)
+                            {
+                                <tr>
+                                    <td>
+                                        @elemento.jugadorId
+                                    </td>
+                                    <td>
+                                        @elemento.Jugador
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.partidaId
+                                    </td>
+                                    <td>
+                                        @elemento.Partida
+                                    </td>
+                                    <td>
+                                        @elemento.codigo
+                                    </td>
+                                    <td>
+                                        @elemento.turno
+                                    </td>
+                                    <td>
+                                        @elemento.puntaje
+                                    </td>
+
+
+                                    <td>
+                                        <input type="submit"
+                                               value="Modicar"
+                                               asp-page-handler="BtModificar"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.id" />
+                                        <input type="submit"
+                                               value="Borrar"
+                                               asp-page-handler="BtBorrarVal"
+                                               class="btn btn-secondary"
+                                               asp-route-data="@elemento.id" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            }
+        </form>
+    </div>
+</center>
+
+@section Scripts {
+    <script type="text/javascript">
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var botonImprimir = document.getElementById('btnImprimirDatos');
+            if (botonImprimir) {
+                botonImprimir.addEventListener('click', function () {
+                    window.print();
+                });
+            }
+        });
+    </script>
+}

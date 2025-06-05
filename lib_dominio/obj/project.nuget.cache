@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "blDK556CdtM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emman\\Desktop\\PruebaFinal\\lib_dominio\\lib_dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emman\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
